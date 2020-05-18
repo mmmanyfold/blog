@@ -15,57 +15,62 @@
 /* Your own custom utilities */
 
 .blinking-cursor {
-    font-weight: 200;
-    font-size: 20px;
-    color: black;
-    -webkit-animation: 1s blink step-end infinite;
-    -moz-animation: 1s blink step-end infinite;
-    -ms-animation: 1s blink step-end infinite;
-    -o-animation: 1s blink step-end infinite;
-    animation: 1s blink step-end infinite;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(123, 250, 76, 1);
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
 }
 
 @keyframes "blink" {
-    from, to {
-        color: transparent;
-    }
-    50% {
-        color: black;
-    }
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: rgba(123, 250, 76, 1);
+  }
 }
 
 @-moz-keyframes blink {
-    from, to {
-        color: transparent;
-    }
-    50% {
-        color: black;
-    }
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: rgba(123, 250, 76, 1);
+  }
 }
 
 @-webkit-keyframes "blink" {
-    from, to {
-        color: transparent;
-    }
-    50% {
-        color: black;
-    }
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: rgba(123, 250, 76, 1);
+  }
 }
 
 @-ms-keyframes "blink" {
-    from, to {
-        color: transparent;
-    }
-    50% {
-        color: black;
-    }
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: rgba(123, 250, 76, 1);
+  }
 }
 
 @-o-keyframes "blink" {
-    from, to {
-        color: transparent;
-    }
-    50% {
-        color: black;
-    }
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: rgba(123, 250, 76, 1);
+  }
 }
