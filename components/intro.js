@@ -23,11 +23,11 @@ export default function Intro() {
           David Viramontes
         </a>{' '}
         <br/>{' '}
-        <b>></b> checkout out our work @{' '}
-	      <a
-		      href="http://mmmanyfold.com"
-		      className="underline hover:text-success duration-200 transition-colors"
-	      >mmmanyfold.com</a>
+	      <span style={{'background': 'black'}}>$ checkout out our work @{' '}</span>
+	      <a href="http://mmmanyfold.com"
+		     className="underline hover:text-success duration-200 transition-colors"
+	      >mmmanyfold.com</a>{' '}
+	      <span className="blinking-cursor">|</span>
       </h4>
     </section>
   )
