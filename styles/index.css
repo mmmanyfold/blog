@@ -13,6 +13,10 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+#mmmanyfolddotcom:hover {
+    transition-duration: 200ms;
+    color: rgba(123, 250, 76, 1);
+}
 
 .blinking-cursor {
   font-weight: 400;
