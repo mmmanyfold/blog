@@ -24,13 +24,13 @@ export default function Intro() {
         </a>{" "}
         <br />{" "}
         <span style={{ background: "black", padding: '1px', color: 'white' }}>
-	        $ go checkout our past projects @
+	        $
         <a
 	      id="mmmanyfolddotcom"
-          href="http://work.mmmanyfold.com"
-          className="underline duration-200 transition-colors"
+          href="http://www.mmmanyfold.com.s3-website-us-east-1.amazonaws.com/"
+          className="duration-200 transition-colors"
         >
-          {" "}mmmanyfold.com
+          {" "}go checkout our past projects
         </a>{" "}
 	        <span className="blinking-cursor">|</span>
         </span>

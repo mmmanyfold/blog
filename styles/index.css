@@ -16,6 +16,7 @@
 #mmmanyfolddotcom:hover {
     transition-duration: 200ms;
     color: rgba(123, 250, 76, 1);
+    text-decoration: underline;
 }
 
 .blinking-cursor {
