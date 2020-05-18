@@ -8,7 +8,7 @@ export default function Intro() {
         +
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A blog and project showcase by{" "}
+        Blog and project showcase by{" "}
         <a
           href="https://www.linkedin.com/in/eemshi/"
           className="underline hover:text-success duration-200 transition-colors"
