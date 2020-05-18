@@ -27,7 +27,7 @@ export default function Intro() {
 	        $ go checkout our past projects @
         <a
 	      id="mmmanyfolddotcom"
-          href="http://mmmanyfold.com"
+          href="http://work.mmmanyfold.com"
           className="underline duration-200 transition-colors"
         >
           {" "}mmmanyfold.com
