@@ -1,6 +1,6 @@
 ---
 title: 'Using LFOs to create animations with p5.js'
-excerpt: 'Low frequency oscillators from DAC tools'
+excerpt: 'Borrowing ideas from DAC tools to create simple animations'
 coverImage: '/assets/blog/lfo/lfo.png'
 date: '2020-05-16T05:35:07.322Z'
 author:
