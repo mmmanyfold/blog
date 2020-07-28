@@ -1,13 +1,13 @@
 ---
-title: 'Using LFOs to create animations with P5.js'
+title: 'Using LFOs to create animations with p5.js'
 excerpt: 'Low frequency oscillators from DAC tools'
-coverImage: '/assets/blog/lfo/lfo.gif'
+coverImage: '/assets/blog/lfo/lfo.png'
 date: '2020-05-16T05:35:07.322Z'
 author:
   name: David Viramontes
   picture: '/assets/blog/authors/dav.gif'
 ogImage:
-  url: '/assets/blog/coming/cover.jpg'
+  url: '/assets/blog/lfo/lfo.png'
 ---
 
 A low frequency oscillator or LFO is a concept/tool that is traditionally used in hardware as well as software sound synthesizes.
@@ -25,7 +25,7 @@ in all sorts of interesting ways. In this sketch below we use an LFO to continuo
 [click here to see a fullscreen version](https://000516894.codepen.website/)
 
 
-<iframe height="873" style="width: 100%;" scrolling="no" title="LFO.js" src="https://codepen.io/dviramontes/embed/oNbRbPv?height=873&theme-id=39229&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true">
+<iframe height="744" style="width: 100%;" scrolling="no" title="LFO.js" src="https://codepen.io/dviramontes/embed/oNbRbPv?height=744&theme-id=39229&default-tab=js" frameborder="no" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/dviramontes/pen/oNbRbPv'>LFO.js</a> by dviramontes
   (<a href='https://codepen.io/dviramontes'>@dviramontes</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>

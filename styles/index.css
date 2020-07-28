@@ -30,7 +30,7 @@
   animation: 1s blink step-end infinite;
 }
 
-@keyframes "blink" {
+@keyframes blink {
   from,
   to {
     color: transparent;
@@ -50,7 +50,7 @@
   }
 }
 
-@-webkit-keyframes "blink" {
+@-webkit-keyframes blink {
   from,
   to {
     color: transparent;
@@ -60,7 +60,7 @@
   }
 }
 
-@-ms-keyframes "blink" {
+@-ms-keyframes blink {
   from,
   to {
     color: transparent;
@@ -70,7 +70,7 @@
   }
 }
 
-@-o-keyframes "blink" {
+@-o-keyframes blink {
   from,
   to {
     color: transparent;
@@ -78,4 +78,8 @@
   50% {
     color: rgba(123, 250, 76, 1);
   }
+}
+
+a {
+    text-decoration: underline;
 }
