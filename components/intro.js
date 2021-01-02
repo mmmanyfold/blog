@@ -23,16 +23,17 @@ export default function Intro() {
           David Viramontes
         </a>{" "}
         <br />{" "}
-        <span style={{ background: "black", padding: '1px', color: 'white' }}>
-	        $
-        <a
-	      id="mmmanyfolddotcom"
-          href="http://www.mmmanyfold.com.s3-website-us-east-1.amazonaws.com/"
-          className="duration-200 transition-colors"
-        >
-          {" "}go checkout our past projects
-        </a>{" "}
-	        <span className="blinking-cursor">|</span>
+        <span style={{ background: "black", padding: "1px", color: "white" }}>
+          $
+          <a
+            id="mmmanyfolddotcom"
+            href="http://www.mmmanyfold.com.s3-website-us-east-1.amazonaws.com/"
+            className="duration-200 transition-colors"
+          >
+            {" "}
+            go checkout our past projects
+          </a>{" "}
+          <span className="blinking-cursor">|</span>
         </span>
       </h4>
     </section>
