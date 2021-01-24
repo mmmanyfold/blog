@@ -22,7 +22,7 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              <hr style={{"border-top": "1px solid gray"}}/>
+              <hr style={{borderTop: "0.25px solid gray"}}/>
             </>
           )}
         </div>
