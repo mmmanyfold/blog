@@ -1,8 +1,12 @@
+import Container from "./container";
+
 export default function Projects({ preview, children }) {
   return (
-          <>
+          <Container>
             <a href="projects">
-              <span className="bg-accent-1 border-t border-accent-2">projects</span>
+              <h3 className="mb-4 text-3xl md:text-3xl font-bold tracking-tighter leading-tight">
+                Projects
+              </h3>
             </a>
             <figure className="md:flex bg-gray-100 rounded-xl p-8 md:p-0">
               <img className="w-32 h-32 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/assets/tmp.jpg" alt=""/>
@@ -27,6 +31,6 @@ export default function Projects({ preview, children }) {
                 </div>
               </div>
             </figure>
-          </>
+          </Container>
   );
 }
