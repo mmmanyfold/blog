@@ -8,6 +8,7 @@
     "format": "npx prettier --write ."
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "classnames": "2.2.6",
     "date-fns": "2.10.0",
     "gray-matter": "4.0.2",
