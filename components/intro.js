@@ -1,12 +1,9 @@
 export default function Intro() {
-
   return (
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-      <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
-        Hello!
-      </h2>
+      <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">Hello!</h2>
       <h2 className="text-center md:text-left text-lg mt-5 md:pl-2">
-         Welcome to a blog and project showcase by{" "}
+        Welcome to a blog and project showcase by{" "}
         <a
           href="https://www.linkedin.com/in/eemshi/"
           className="underline hover:text-success duration-200 transition-colors"
@@ -22,11 +19,7 @@ export default function Intro() {
         </a>{" "}
         <br />{" "}
         <span style={{ background: "black", padding: "2px", color: "white" }}>
-          <a
-            id="mmmanyfolddotcom"
-            href="#projects"
-            className="duration-200 transition-colors"
-          >
+          <a id="mmmanyfolddotcom" href="#projects" className="duration-200 transition-colors">
             {" "}
             go checkout our past projects
           </a>{" "}

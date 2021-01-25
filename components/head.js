@@ -6,9 +6,14 @@ export default function Head() {
       <Container>
         <div className="border-gray-500 border px-12 py-28 flex flex-col lg:flex-row items-center">
           <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
-	          <a href="/"><span className="underline">mmmanyfold</span></a>
+            <a href="/">
+              <span className="underline">mmmanyfold</span>
+            </a>
           </h3>
-          <p>is a creative web development studio</p>
+          <p>
+            A creative web development studio. We offer web development services for small and medium size businesses
+            and non-profits.
+          </p>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
               href="mailto:hello@mmmanyfold.com"
