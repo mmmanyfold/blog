@@ -10,14 +10,14 @@ export default function Head() {
               <span className="underline">mmmanyfold</span>
             </a>
           </h3>
-          <p>
+          <p className="text-center lg:text-left">
             A creative web development studio. We offer web development services for small to medium size businesses and
             non-profits.
           </p>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
               href="mailto:hello@mmmanyfold.com"
-              className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
+              className="bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mt-8 lg:m-0"
             >
               Get in touch!
             </a>
