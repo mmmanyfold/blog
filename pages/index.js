@@ -13,19 +13,22 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>mmmanyfold.com</title>
+          <title>{"mmmanyfold.com"}</title>
         </Head>
         <Container>
           <Intro />
           {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
+            <>
+              <h3 className="mb-8 my-8 text-3xl md:text-3xl font-bold tracking-tighter leading-tight">Latest Post</h3>
+              <HeroPost
+                title={heroPost.title}
+                coverImage={""}
+                date={heroPost.date}
+                author={heroPost.author}
+                slug={heroPost.slug}
+                excerpt={heroPost.excerpt}
+              />
+            </>
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
@@ -35,14 +38,7 @@ export default function Index({ allPosts }) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "author",
-    "coverImage",
-    "excerpt",
-  ]);
+  const allPosts = getAllPosts(["title", "date", "slug", "author", "coverImage", "excerpt"]);
 
   return {
     props: { allPosts },
