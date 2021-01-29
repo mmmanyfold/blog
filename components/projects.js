@@ -38,9 +38,7 @@ export default function Projects() {
 
   return (
     <Container>
-      <a href="#projects">
-        <h3 className="mb-4 text-3xl md:text-3xl font-bold tracking-tighter leading-tight">Projects</h3>
-      </a>
+      <h3 className="mb-8 my-8 text-3xl md:text-3xl font-bold tracking-tighter leading-tight">Projects</h3>
       {entries.length > 0 && entries.map((entry, i) => <Project key={i} entry={entry} />)}
     </Container>
   );

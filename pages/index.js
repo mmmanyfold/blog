@@ -18,14 +18,17 @@ export default function Index({ allPosts }) {
         <Container>
           <Intro />
           {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={""}
-              date={heroPost.date}
-              author={heroPost.author}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
+            <>
+              <h3 className="mb-8 my-8 text-3xl md:text-3xl font-bold tracking-tighter leading-tight">Latest Post</h3>
+              <HeroPost
+                      title={heroPost.title}
+                      coverImage={""}
+                      date={heroPost.date}
+                      author={heroPost.author}
+                      slug={heroPost.slug}
+                      excerpt={heroPost.excerpt}
+              />
+            </>
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
