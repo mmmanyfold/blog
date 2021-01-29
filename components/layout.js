@@ -2,8 +2,12 @@ import Footer from "../components/footer";
 import Meta from "../components/meta";
 import Projects from "./projects";
 import Head from "./head";
+import { useRouter } from "next/router";
 
 export default function Layout({ children }) {
+  const router = useRouter();
+  const isHomePage = () => router.pathname === "/";
+
   return (
     <>
       <Meta />
@@ -11,7 +15,7 @@ export default function Layout({ children }) {
       <div className="h-96 min-h-0">
         <main>{children}</main>
       </div>
-      <Projects />
+      {isHomePage() && <Projects />}
       <Footer />
     </>
   );

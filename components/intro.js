@@ -22,14 +22,12 @@ export default function Intro() {
         <br />{" "}
         <span style={{ background: "black", padding: "2px", color: "white" }}>
           {" "}
-          <Scrollchor to="projects" animate={{offset: 20, duration: 600}} className="nav-link">Home</Scrollchor>
-          <button
-            id="mmmanyfolddotcom"
-            className="duration-200 transition-colors"
-          >
+          <Scrollchor to="projects" animate={{ offset: 20, duration: 600 }} className="nav-link">
+            Home
+          </Scrollchor>
+          <button id="mmmanyfolddotcom" className="duration-200 transition-colors">
             go checkout our past projects
           </button>{" "}
-
           <a href="projects">dmfalkdsfmkmfald</a>
         </span>
       </h2>
