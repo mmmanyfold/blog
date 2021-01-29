@@ -1,3 +1,5 @@
+import Scrollchor from "react-scrollchor";
+
 export default function Intro() {
   return (
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
@@ -19,10 +21,16 @@ export default function Intro() {
         </a>{" "}
         <br />{" "}
         <span style={{ background: "black", padding: "2px", color: "white" }}>
-          <a id="mmmanyfolddotcom" href="#projects" className="duration-200 transition-colors">
-            {" "}
+          {" "}
+          <Scrollchor to="projects" animate={{offset: 20, duration: 600}} className="nav-link">Home</Scrollchor>
+          <button
+            id="mmmanyfolddotcom"
+            className="duration-200 transition-colors"
+          >
             go checkout our past projects
-          </a>{" "}
+          </button>{" "}
+
+          <a href="projects">dmfalkdsfmkmfald</a>
         </span>
       </h2>
     </section>
