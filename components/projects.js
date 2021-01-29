@@ -5,7 +5,6 @@ import Project from "./project";
 import Container from "./container";
 
 export default function Projects() {
-  const [assets, setAssets] = useState([]);
   const [entries, setEntries] = useState([]);
 
   useEffect(() => {
@@ -17,15 +16,25 @@ export default function Projects() {
         const {
           data: { items: assetData },
         } = await axios(CDN_ASSETS);
-        setEntries(entryData);
-        setAssets(assetData);
+
+        setEntries(mapAssetToEntry(entryData, assetData));
       } catch (e) {
         throw e;
       }
     };
 
     getProjects();
+
   }, []);
+
+  const mapAssetToEntry = (entries, assets) => {
+    return entries.map((entry) => {
+      const { fields: { cover: { sys: { id } } }} = entry;
+      const { fields } = assets.find((asset) => asset.sys.id === id);
+      return { ...entry, asset: { ...fields }};
+    });
+  }
+
 
   return (
     <Container>
