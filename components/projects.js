@@ -24,17 +24,21 @@ export default function Projects() {
     };
 
     getProjects();
-
   }, []);
 
   const mapAssetToEntry = (entries, assets) => {
     return entries.map((entry) => {
-      const { fields: { cover: { sys: { id } } }} = entry;
+      const {
+        fields: {
+          cover: {
+            sys: { id },
+          },
+        },
+      } = entry;
       const { fields } = assets.find((asset) => asset.sys.id === id);
-      return { ...entry, asset: { ...fields }};
+      return { ...entry, asset: { ...fields } };
     });
-  }
-
+  };
 
   return (
     <Container>

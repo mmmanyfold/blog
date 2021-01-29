@@ -11,8 +11,8 @@ export default function Head() {
             </a>
           </h3>
           <p>
-            A creative web development studio. We offer web development services for small to medium size businesses
-            and non-profits.
+            A creative web development studio. We offer web development services for small to medium size businesses and
+            non-profits.
           </p>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a

@@ -21,12 +21,12 @@ export default function Index({ allPosts }) {
             <>
               <h3 className="mb-8 my-8 text-3xl md:text-3xl font-bold tracking-tighter leading-tight">Latest Post</h3>
               <HeroPost
-                      title={heroPost.title}
-                      coverImage={""}
-                      date={heroPost.date}
-                      author={heroPost.author}
-                      slug={heroPost.slug}
-                      excerpt={heroPost.excerpt}
+                title={heroPost.title}
+                coverImage={""}
+                date={heroPost.date}
+                author={heroPost.author}
+                slug={heroPost.slug}
+                excerpt={heroPost.excerpt}
               />
             </>
           )}

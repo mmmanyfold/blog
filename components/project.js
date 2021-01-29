@@ -1,10 +1,13 @@
-import ReactMarkdown from 'react-markdown'
+import ReactMarkdown from "react-markdown";
 
 export default function Project({ entry }) {
   console.log(entry);
   const {
     fields: { title, description, tech },
-    asset: { file: { url }, title: alt },
+    asset: {
+      file: { url },
+      title: alt,
+    },
   } = entry;
 
   return (
@@ -13,12 +16,8 @@ export default function Project({ entry }) {
       <div className="" alt="" width="384" height="512">
         <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
           <blockquote>
-            <p className="text-lg font-semibold">
-              {title}
-            </p>
-            <ReactMarkdown>
-              {description}
-            </ReactMarkdown>
+            <p className="text-lg font-semibold">{title}</p>
+            <ReactMarkdown>{description}</ReactMarkdown>
           </blockquote>
           <figcaption className="font-medium">
             <div className="text-cyan-600">tech</div>
