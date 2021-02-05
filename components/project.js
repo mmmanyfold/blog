@@ -1,7 +1,6 @@
 import ReactMarkdown from "react-markdown";
 
 export default function Project({ entry }) {
-  console.log(entry);
   const {
     fields: { title, description, tech },
     asset: {
@@ -19,10 +18,12 @@ export default function Project({ entry }) {
             <p className="text-lg font-semibold">{title}</p>
             <ReactMarkdown>{description}</ReactMarkdown>
           </blockquote>
-          <figcaption className="font-medium">
-            <div className="text-cyan-600">tech</div>
-            <div className="text-gray-500">{tech}</div>
-          </figcaption>
+          {tech && (
+            <figcaption className="font-medium">
+              <div className="text-cyan-600">tech</div>
+              <div className="text-gray-500">{tech}</div>
+            </figcaption>
+          )}
         </div>
       </div>
     </figure>
