@@ -1,6 +1,6 @@
 ---
 title: "useForm // custom React hook"
-excerpt: ""
+excerpt: "A simple hook for managing form state in a React component"
 coverImage: "/assets/blog/use-form/use-form-bones.png"
 date: "2021-08-08T05:35:07.322Z"
 author:
@@ -9,8 +9,6 @@ author:
 ogImage:
   url: "/assets/blog/use-form/use-form-returns.png"
 ---
-
-## A simple hook for managing form state in a React component
 
 ### Example component:
 
