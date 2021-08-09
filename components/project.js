@@ -10,7 +10,7 @@ export default function Project({ entry }) {
   } = entry;
 
   return (
-    <figure className="md:flex md:bg-gray-100 rounded-xl my-8" style={{ border: "1px dotted blue" }}>
+    <figure className="md:flex rounded-xl my-8" style={{ border: "1px dotted blue", backgroundColor: 'rgba(243, 244, 246, 0.75)' }}>
       <img className="h-58 w-full object-cover md:w-48" src={url} alt={alt} />
       <div className="" alt="" width="384" height="512">
         <div className="p-6 md:p-8 space-y-4">
